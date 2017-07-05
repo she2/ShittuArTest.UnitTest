@@ -12,6 +12,9 @@ namespace ShittuArTest.UnitTest.Models
 
             //Set the data so that it becomes available to the base class
             _data = this;
+
+            //Initialize variables
+            Initialize();
         }
 
 

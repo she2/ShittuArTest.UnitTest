@@ -5,6 +5,7 @@ namespace ShittuArTest.UnitTest.Util
 {
     class DbHelper
     {
+        //public static DbHelper Init = new DbHelper();
         /// <summary>
         /// Get a new ID
         /// </summary>
