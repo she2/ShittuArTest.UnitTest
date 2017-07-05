@@ -5,6 +5,6 @@
         /// <summary>
         /// The path to the DB file
         /// </summary>
-        public static string DatabaseFilePath = "C:/ShittuJobTest/";
+        public const string DATABASE_FILE_PATH = "C:/ShittuJobTest/";
     }
 }

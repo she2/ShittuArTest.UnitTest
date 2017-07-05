@@ -35,7 +35,7 @@ namespace ShittuArTest.UnitTest.Util
         /// <typeparam name="T">The <see cref="Type"/> of the data the Db contains</typeparam>
         /// <param name="data">The data to save</param>
         /// <returns>The path to the DB file</returns>
-        public string GetDbFilePath<T>(T data) => $"{StringKeys.DatabaseFilePath}{GetDbFileName(data)}.xml";
+        public string GetDbFilePath<T>(T data) => $"{StringKeys.DATABASE_FILE_PATH}{GetDbFileName(data)}.xml";
 
         /// <summary>
         /// Gets the file name of the database file

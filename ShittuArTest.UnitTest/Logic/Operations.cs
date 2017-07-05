@@ -52,9 +52,9 @@ namespace ShittuArTest.UnitTest.Logic
             var xmlData = JsonConvert.DeserializeXNode(serializedData, dbFileName, true);
 
             //Ensure directory always exists
-            if (!Directory.Exists(StringKeys.DatabaseFilePath))
+            if (!Directory.Exists(StringKeys.DATABASE_FILE_PATH))
             {
-                Directory.CreateDirectory(StringKeys.DatabaseFilePath);
+                Directory.CreateDirectory(StringKeys.DATABASE_FILE_PATH);
             }
 
             if (File.Exists(filePath))
